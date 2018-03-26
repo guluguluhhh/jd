@@ -1,0 +1,158 @@
+.banner604{
+	position: relative;
+}
+.banner604 a{
+	position: absolute;
+	width: 100%;
+	height: 604px;
+	top: 0;
+	left: 0;
+	background: url(../images/banner.jpg) no-repeat center top;
+}
+.main{
+	position: relative;
+}
+#slider{
+	width: 730px;
+	height: 454px;
+
+	float: left;
+	margin: 12px 0 0 220px;
+	position: relative;
+	overflow: hidden;
+}
+
+#banner{
+	position: absolute;
+	left: 0px;
+	/*width: 4440px;*/
+	list-style: none;
+
+}
+#banner li{
+	float: left;
+	
+}
+#circle{
+	position: absolute;
+	bottom: 10px;
+}
+
+#circle a{
+	background-color: red;
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+	text-align: center;
+	color: #F7F4EF;
+	background-color: rgba(220,22,35,0.7);
+	border-radius: 10px;
+}
+#circle a:hover{
+	background-color: black;
+}
+
+#s-l a,
+#s-r a
+{
+	position: absolute;
+	width: 30px;
+	height: 62px;
+	background-color: #666F7B;
+	top: 50%;
+	margin-top: -31px;
+	font: 20px/62px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+#s-l a{
+	left: 0;
+}
+#s-r a{
+	
+	right: 0;
+}
+#s-l a:hover,
+#s-r a:hover
+{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.news{
+	width: 248px;
+	height: 454px;
+	
+	float: right;
+	margin-top: 12px;
+	border: solid 1px #E4E4E4;
+}
+.jd-news .dt,
+.lifeser .dt
+{
+	height: 45px;
+	font: 15px/45px "微软雅黑";
+	border-bottom: dotted 1px #EAEAE9;
+	padding:0 15px;
+}
+.jd-news .dt h3,
+.lifeser .dt h3{
+	float: left;
+}
+.jd-news .dt a{
+	float: right;
+	font-size: 13px;
+	font-family:"宋体" ;
+}
+.jd-news .dd{
+	padding: 0 15px;
+	border-bottom: dashed 1px #EAEAE9;
+}
+.jd-news .dd li{
+	height: 30px;
+	line-height: 30px;
+}
+.jd-news .dd span{
+	font-weight: bold;
+	padding-right:8px ;
+}
+.lifeser li{
+	/*padding-top: 47px;*/
+	float: left;
+	width: 61px;
+	height: 70px;
+	/*background-color: pink;*/
+	border-bottom: solid 1px #E4E4E4;
+	border-right: solid 1px #E4E4E4;
+}
+.lifeser .dd a{
+	display: block;
+	text-align: center;
+	padding-top: 47px;
+	position: relative;
+} 
+.lifeicon{
+	position: absolute;
+	background:url(../images/icon_lifeserv.png) no-repeat -25px 0;
+	width: 25px;
+	height: 25px;
+	top: 12px;
+	
+}
+.lifeser .song{
+	background: url(../images/song.png) no-repeat top right;
+}
+.night{
+	margin-top: 10px;
+	/*width: 1210px;*/
+}
+.night li{
+	float: left;
+	position: relative;
+	/*margin-right: 2px;*/
+/*	width:248px;*/
+	/*overflow: hidden;*/
+}
